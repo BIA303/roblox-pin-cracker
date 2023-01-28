@@ -13,7 +13,8 @@ req = requests.Session()
 req.cookies['.ROBLOSECURITY'] = cookie
 try:
     username = req.get('https://www.roblox.com/mobileapi/userinfo').json()['UserName']
-    print('Logged in to', username)
+    print('Logged in to', Knife_EzEz
+         )
 except:
     input('INVALID COOKIE')
     exit()
